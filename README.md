@@ -1,12 +1,49 @@
-# React + Vite
+# My Website!!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive personal portfolio built with React, featuring custom animations and UI components.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Animated UI components** — blur text, decrypted text reveals, pixel transitions, text pressure effects, and typing animations
+- **Interactive cards** — flippable cards, swipeable Tinder-style card stacks, and animated card hover effects
+- **ChromaGrid** — dynamic color grid background
+- **SplashCursor** — custom animated cursor effect
+- **Dock** — macOS-style dock navigation
+- **Timeline** — visual timeline for experience or education
+- **Skills** — skills showcase section
+- **FolderShowcase** — project display in a folder-style layout
+- **ProjectShell** — wrapper component for individual project pages
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (JSX)
+- CSS (component-scoped stylesheets)
+
+## Components
+
+| Component | Description |
+|---|---|
+| `AnimatedCard` | Card with hover/click animations |
+| `BlurText` | Text that reveals from a blur effect |
+| `CardSwap` | Swappable card carousel |
+| `ChromaGrid` | Colorful animated grid background |
+| `DecryptedText` | Text that "decrypts" into place |
+| `Dock` | macOS-style icon dock |
+| `FlippableCard` | Card that flips to reveal a back side |
+| `FolderShowcase` | Folder-style project browser |
+| `Navbar_simple` | Simple navigation bar |
+| `PixelTransition` | Pixelated page/element transition |
+| `ProjectShell` | Layout wrapper for project pages |
+| `Skills` | Skills display section |
+| `SplashCursor` | Custom animated cursor |
+| `TextPressure` | Pressure-responsive text effect |
+| `TextType` | Typewriter text animation |
+| `Timeline` | Vertical timeline component |
+| `TinderCard` / `TinderCardStack` | Swipeable card stack |
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
